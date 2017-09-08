@@ -1,0 +1,25 @@
+/* --------------------------------
+
+Import
+From Material-UI Colors
+
+-------------------------------- */
+@import "_colors.scss";
+
+/* --------------------------------
+COLORS
+From customTheme.js
+-------------------------------- */
+
+$primary1Color: $cyan500 !default;
+$primary2Color: $cyan700 !default;
+$primary3Color: $lightBlack !default;
+$accent1Color: $pinkA200 !default;
+$accent2Color: $grey100 !default;
+$accent3Color: $grey500 !default;
+$alternateTextColor: $white !default;
+$textColor: $darkBlack !default;
+$canvasColor: $white !default;
+$borderColor: $grey500 !default;
+$disabledColor: lighten($darkBlack, 30%);
+$pickerHeaderColor: $cyan500 !default;
