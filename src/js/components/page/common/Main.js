@@ -1,7 +1,7 @@
 import React from 'react';
 import { BaseComponent, Frame } from '../../base';
 
-class Sample extends BaseComponent {
+class Main extends BaseComponent {
 
   componentDidMount() {
   }
@@ -9,10 +9,10 @@ class Sample extends BaseComponent {
   render() {
     return (
       <Frame showNav={true}>
-        <div>Sample View</div>
+        <div>Main View</div>
       </Frame>
     );
   }
 }
 
-export default Sample;
+export default Main;

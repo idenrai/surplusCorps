@@ -10,6 +10,9 @@
   },
   "extends": "eslint-config-airbnb",
   "rules": {
+    "linebreak-style": 0,
+    "global-require": 0,
+    "eslint linebreak-style": [0, "error", "windows"],
     "strict": [2, "function"],
     "no-undef": 2,
     "react/forbid-prop-types": 0,
